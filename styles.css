@@ -18,5 +18,14 @@
 }
 
 .right {
-    color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 10px;
+}
+
+.avatarImage{
+    border-radius: 50%;
+    width: 150px;
+    float: left;
 }
