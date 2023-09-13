@@ -1,4 +1,22 @@
-.mainDiv{
+.bodyContainer{
     color: black;
-    background-color: aqua;
+    display: grid;
+    grid-template-columns: 15% 80%;
+    grid-gap: 20px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+}
+
+.left{
+    color: black;
+}
+
+.right {
+    color: black;
 }

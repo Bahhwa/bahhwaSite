@@ -1,0 +1,27 @@
+.img1{
+    width: 600px;
+    height: 500px;
+}
+
+.bodyContainer{
+    color: black;
+    display: grid;
+    grid-template-columns: 15% 80%;
+    grid-gap: 20px;
+}
+
+.footer{
+    text-align: center;
+}
+
+.header{
+    text-align: center;
+}
+
+.left{
+    color: black;
+}
+
+.right {
+    color: black;
+}
