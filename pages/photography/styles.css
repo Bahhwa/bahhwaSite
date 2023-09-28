@@ -10,12 +10,17 @@
     grid-gap: 20px;
 }
 
+h1{
+
+}
+
 .footer{
     text-align: center;
 }
 
 .header{
     text-align: center;
+    background-color: #952323;
 }
 
 .left{
