@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Devin Site Practice</title>
+    <script src="index.js"> </script>
+</head>
+<body>
+    <div class="header">
+        <div class="HeaderLeft"></div>
+        <div class="HeaderCenter">       <span class="HeaderText"> <h1>Devin Hewson - Test </h1> </span> </div>
+        <div class="HeaderNav">
+        <button class="buttonNav home" onclick="window.location.href='../../../index.html';"> Home </button>
+        <button class="buttonNav Page2" onclick="window.location.href='bahhwaSite/pages/stat_Roll/index.html';"> 5E Roller </button> 
+        <button class="buttonNav Page3" onclick="window.location.href='bahhwaSite/pages/photography/photography.html';"> Photography </button>       
+        </div>
+        <div class="HeaderRight"> </div>
+    </div>
+    
+    <div class="bodyContainer">
+        <div>
+            <button class="diceRoll" onclick="removeLowest()"> Roll the dice?</button>
+            <div class="rolledValue"> 
+            The Rolled Value is: <br>
+            </div>
+            <div class="changeedValue">
+            </div>
+
+            <div class="diceImages">
+                <div class="die1">
+                    <img class="dieImg0" src="images/dice1.png" alt="">
+                     </div>
+                <div class="die2"> 
+                    <img class="dieImg1" src="images/dice1.png" alt="">
+                </div>
+                <div class="die3">
+                    <img class="dieImg2" src="images/dice1.png" alt="">
+                </div>
+                <div class="die4">
+                    <img class="dieImg3" src="images/dice1.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="statContainer">
+            <div class="stat Str">
+                <div class="statTitle">
+                    Strength
+                </div>
+                <div class="statValue str">
+                    XX
+                </div>
+                <button class="setStat Str" onclick="setStat('str')"> SET STAT</button>
+            </div>
+            <div class="stat Dex">
+                <div class="statTitle">
+                    Dexterity
+                </div>
+                <div class="statValue dex">
+                    XX
+                </div>
+                <button class="setStat Dex" onclick="setStat('dex')"> SET STAT</button>
+            </div>
+            <div class="stat Con">
+                <div class="statTitle">
+                    Constitution
+                </div>
+                <div class="statValue con">
+                    XX
+                </div>
+                <button class="setStat Con" onclick="setStat('con')"> SET STAT</button>
+            </div>
+            <div class="stat Int">
+                <div class="statTitle">
+                    Intelligence
+                </div>
+                <div class="statValue int">
+                    XX
+                </div>
+                <button class="setStat Int" onclick="setStat('int')"> SET STAT</button>
+            </div>
+            <div class="stat Wis">
+                <div class="statTitle">
+                    Wisdom
+                </div>
+                <div class="statValue wis">
+                    XX
+                </div>
+                <button class="setStat Wis" onclick="setStat('wis')"> SET STAT</button>
+            </div>
+            <div class="stat Cha">
+                <div class="statTitle">
+                    Charisma
+                </div>
+                <div class="statValue cha">
+                    XX
+                </div>
+                <button class="setStat Cha" onclick="setStat('cha')"> SET STAT</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footerLeft"></div>
+        <div class="footerCenter">
+            Devin Hewson 2023 <a href="https://www.linkedin.com/in/devinhewson/"> LinkedIn </a> </h6>
+        </div>
+        <div class="footerBlank"></div>
+        <div class="footerRight" ></div>
+    </div>
+
+</body>
+</html>
