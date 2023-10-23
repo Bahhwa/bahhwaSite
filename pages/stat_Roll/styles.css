@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz@8..60&display=swap');
 
 /*
-
 colours:
 #053B50
 #176B87
@@ -14,14 +13,68 @@ body{
     width: auto;
 }
 
+.stat{
+    color: black;
+    display: grid;
+    grid-template-rows: 40% 60%;
+    background-color: #EEEEEE;
+    height: 100%;
+}
+
+.statTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid black;
+}
+.statValue{
+    display: flex;
+    border: 5px solid black;
+
+}
+
 .bodyContainer{
     color: black;
     display: grid;
-    grid-template-columns: 5% 88% 5%;
+    grid-template-rows: 50% 50%;
     grid-gap: 20px;
     padding-top: 10px;
     background-color: #EEEEEE;
     height: 84vh;
+}
+
+.dieImg{
+    height: 150px;
+    width: 150px;
+}
+
+.diceImages{
+    color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    gap: 20px;
+}
+
+.statContainer{
+    color: black;
+    display: grid;
+    grid-template-columns: 15% 15% 15% 15% 15% 15%;
+    justify-content: center;
+    grid-gap: 20px;
+    padding-top: 10px;
+    background-color: #EEEEEE;
+    height: 45%;
+}
+
+.statValue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
 }
 
 .footer{
