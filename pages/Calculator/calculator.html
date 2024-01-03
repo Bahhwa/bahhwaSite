@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Devin Site Practice</title>
+    <script src="index.js"> </script>
+</head>
+<body>
+    <div class="header">
+        <div class="HeaderLeft"></div>
+        <div class="HeaderCenter">       <span class="HeaderText"> <h1>Devin Hewson - Test </h1> </span> </div>
+        <div class="HeaderNav">
+        <button class="buttonNav home" onclick="window.location.href='index.html';"> Home </button>
+        <button class="buttonNav Page2" onclick="window.location.href='pages/stat_Roll/index.html';"> 5E Roller </button> 
+        <button class="buttonNav Page3" onclick="window.location.href='pages/photography/photography.html';"> Photography </button>       
+        </div>
+        <div class="HeaderRight"> </div>
+    </div>
+    <div class="bodyContainer">
+        <div class="calcGrid">
+            <div class="value">
+                
+            </div>
+            <div class="number">
+                <button class="numberButton 1" onclick="setValue('1')">1</button>
+            </div>
+            <div class="number">
+                <button class="numberButton 2" onclick="setValue('2')">2</button>
+            </div>
+            <div class="number">
+                <button class="numberButton 3" onclick="setValue('3')">3</button>
+            </div>
+            <div class="opperation">
+                <button class="numberButton subtract" onclick="newOpperation('minus')">-</button>
+            </div>
+            <div class="number">
+                <button class="numberButton 4" onclick="setValue('4')">4</button>
+            </div>
+            <div class="number">
+                <button class="numberButton 5" onclick="setValue('5')">5</button>
+            </div>
+            <div class="number">
+                <button class="numberButton 6" onclick="setValue('6')">6</button>
+            </div>
+            <div class="opperation">
+                <button class="numberButton multiply" onclick="newOpperation('multiply')">*</button>
+            </div>
+            <div class="number">
+                <button class="numberButton 7" onclick="setValue('7')">7</button>
+            </div>
+            <div class="number">
+                <button class="numberButton 8" onclick="setValue('8')">8</button>
+            </div>
+            <div class="number">
+                <button class="numberButton" onclick="setValue('9')">9</button>
+            </div>
+            <div class="opperation">
+                <button class="numberButton sum" onclick="newOpperation('add')">+</button>
+            </div>
+            <div class="opperation">
+                <button class="numberButton equals" onclick="completeOpperation()">=</button>
+            </div>
+            <div class="opperation">
+                <button class="numberButton equals" onclick="reset()"> C </button>
+            </div>
+            <div class="number">
+                <button class="numberButton" onclick="setValue('0')">0</button>
+            </div>
+            <div class="opperation">
+                <button class="numberButton divide" onclick="newOpperation('divide')">/</button> 
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="footerLeft"></div>
+        <div class="footerCenter">
+            Devin Hewson 2023 <a href="https://www.linkedin.com/in/devinhewson/"> LinkedIn </a> </h6>
+        </div>
+        <div class="footerBlank"></div>
+        <div class="footerRight"></div>
+    </div>
+</body>
+</html>
