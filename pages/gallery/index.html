@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Devin Site Practice</title>
+    <script src="index.js"> </script>
+</head>
+<body>
+    <div class="header">
+        <div class="HeaderLeft"></div>
+        <div class="HeaderCenter">       <span class="HeaderText"> <h1>Devin Hewson - Test </h1> </span> </div>
+        <div class="HeaderNav">
+        <button class="buttonNav home" onclick="window.location.href='index.html';"> Home </button>
+        <button class="buttonNav Page2" onclick="window.location.href='pages/stat_Roll/index.html';"> 5E Roller </button> 
+        <button class="buttonNav Page3" onclick="window.location.href='pages/photography/photography.html';"> Photography </button>       
+        </div>
+        <div class="HeaderRight"> </div>
+    </div>
+    <div class="bodyContainer">
+        <div class="left">
+        </div>
+        <div class="center">
+                <img src= "../gallery/photos/photo1.png" id="currentImage"  height="720" width="1365"/>
+                <div>
+                    <button id= "prev" class="portfolioNavigation" onclick="navigateGallery('prev')">Previous</button>
+                    <button id= "next" class="portfolioNavigation" onclick="navigateGallery('next')">Next</button>
+                </div>
+
+        </div>
+        <div class="right"> </div>
+
+    </div>
+
+    <div class="footer">
+        <div class="footerLeft"></div>
+        <div class="footerCenter">
+            Devin Hewson 2023 <a href="https://www.linkedin.com/in/devinhewson/"> LinkedIn </a> </h6>
+        </div>
+        <div class="footerBlank"></div>
+        <div class="footerRight"></div>
+    </div>
+</body>
+</html>
