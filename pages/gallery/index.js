@@ -1,7 +1,7 @@
 var counter = 1;
 
 //Image sources
-var srcArray = ["../gallery/photos/photo1.png", "../gallery/photos/photo2.jpg", "../gallery/photos/photo3.jpg"];
+var srcArray = ["../gallery/photos/photo1.png", "../gallery/photos/photo2.JPG", "../gallery/photos/photo3.JPG"];
 
 //Button Nav
 function navigateGallery(direction){
